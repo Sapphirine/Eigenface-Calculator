@@ -103,7 +103,7 @@ for i in range(no_test_images):
     e = np.amin(np.asarray(DIST))
 
     print idx
-    if e<10:
+    if e<100:
         print 'The face is recognized as face %i\n',idx
     else:
         print 'There is no face matched\n'
